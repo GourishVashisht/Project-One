@@ -4,7 +4,7 @@ pipeline {
     stages {
 		stage('Say Hello'){
 			steps{
-				bat 'mvn -v'
+				bat 'mvn -+v'
 			}
 		}
 	}
