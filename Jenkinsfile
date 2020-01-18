@@ -6,7 +6,7 @@ pipeline {
 	}
 	
     stages {
-		stage('Print maven version'){
+		stage('Print maven version on on console'){
 			steps{
 				bat 'mvn -v'
 			}
