@@ -12,7 +12,7 @@ pipeline {
     stages {
 		stage('Print maven version'){
 			steps{
-				bat 'mvn -$v'
+				bat 'mvn -v'
 			}
 		}
 	}
