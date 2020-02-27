@@ -4,6 +4,7 @@ pipeline {
 	triggers {
 		pollSCM('H/2 * * * *')
 	}
+	
 	parameters {
 	    string(name: 'STRING_VALUE', defaultValue: 'Jenkins', description: 'Any string value ?')
     }
